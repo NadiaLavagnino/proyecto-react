@@ -1,6 +1,6 @@
-import Form from '../Form/Form';
-import Categorias from './Categorias/categorias';
 
+import Categorias from './Categorias/Categorias';
+import CartWidget from '../CartWidget/CartWidget';
 const Navbar = () => {
     return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -11,8 +11,8 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <Categorias/>
-            <Form/>
         </div>
+        <CartWidget/>
         </div>
         </nav>
 

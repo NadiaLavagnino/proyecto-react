@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Form from './Form/Form';
 import Navbar from './Navbar/Navbar';
-
+import ItemListConatiner from './ItemListContainer/ItemListConatiner';
+import ItemCount from './ItemCount/ItemCount';
 const App = () => {
   return (
     <>
       <Navbar/>
-      <Form/>
+      <ItemListConatiner/>
+      <ItemCount/>
     </>
 
       
