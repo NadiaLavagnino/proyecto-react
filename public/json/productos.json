@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre":"Remera",
+        "color": "negra",
+        "stock": 15,
+        "img": "remera1.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre":"Remeron",
+        "color": "negra",
+        "stock": 10,
+        "img": "remera1.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "nombre":"Musculosa",
+        "color": "negra",
+        "stock": 22,
+        "img": "remera1.jpg"
+    },
+    {
+        "id": 4,
+        "idCategoria": 2,
+        "nombre":"Short",
+        "color": "claro",
+        "stock": 12,
+        "img": "remera1.jpg"
+    },
+    {
+        "id": 5,
+        "idCategoria": 2,
+        "nombre":"Short",
+        "color": "celeste",
+        "stock": 12,
+        "img": "remera1.jpg"
+    },
+    {
+        "id": 6,
+        "idCategoria": 2,
+        "nombre":"Short",
+        "color": "celeste",
+        "stock": 8,
+        "img": "remera1.jpg"
+    },
+    {
+        "id": 7,
+        "idCategoria": 3,
+        "nombre":"Jean",
+        "color": "azul",
+        "stock": 3,
+        "img": "remera1.jpg"
+    },
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre":"Jean",
+        "color": "celeste",
+        "stock": 6,
+        "img": "remera1.jpg"
+    },
+    {
+        "id": 9,
+        "idCategoria": 3,
+        "nombre":"Jean",
+        "color": "claro",
+        "stock": 5,
+        "img": "remera1.jpg"
+    }
+]
