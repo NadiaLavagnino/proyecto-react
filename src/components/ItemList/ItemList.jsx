@@ -1,8 +1,9 @@
-/* ARRAY DE PRODUCTOS */
+/* MODIFICAR ARRAY DE PRODUCTOS */
+import Item from "../Item/Item";
 const ItemList = ({productList}) => {
     return (
         <div>
-            <h1>ItemList</h1>
+            {productList.map(product => <Item key={product.id} producto={product}/>)}
         </div>
     );
 }

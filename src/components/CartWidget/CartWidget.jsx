@@ -1,12 +1,11 @@
 const CartWidget = () => {
     return (
         <>
-            <ul className="navbar-nav me-auto">
-                <li className="nav-link">
-                    <button className="btn btn-dark">Carrito</button>
-                </li>
-                <p>0</p>
-            </ul>
+            <button className="btn btn-secondary cartWidget">
+                <i class="bi bi-cart3"></i>
+                    <span className="cantCarrito">0</span>
+                
+            </button>
         
         </>
         

@@ -1,1 +1,17 @@
+.cartWidget {
+    position: relative;
+    left: 33%;
+    color: white;
 
+}
+
+
+.cantCarrito{
+    position: relative
+    
+}
+
+.cardProductos{
+    width: 15 rem;
+    margin: 4px;
+}
