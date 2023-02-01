@@ -1,17 +1,57 @@
+.cardProducto{
+    width: 10 rem;
+    margin: 4px;
+    background-color: hsl(0, 38%, 95%);
+}
+
+.carBody{
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+.carBodyDark{
+    background-color: rgb(247, 207, 207);
+    margin-bottom: 3px;
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+}
+
+.cardProductos{
+    margin: 5px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .cartWidget {
     position: relative;
-    left: 33%;
+    right: 3%;
     color: white;
+}
 
+.nav-item{
+    margin: 10px;
+    
 }
 
 
 .cantCarrito{
-    position: relative
+    position: relative;
+    left: 15%;
     
 }
 
-.cardProductos{
-    width: 15 rem;
-    margin: 4px;
+.darkMode{
+    background-color: rgb(182, 243, 182);
+    color: rgb(14, 224, 14);
 }
+
+.itemDetail{
+    max-width: 400px;
+    margin-top: 20px;
+}
+

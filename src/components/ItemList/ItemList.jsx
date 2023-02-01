@@ -1,10 +1,10 @@
 /* MODIFICAR ARRAY DE PRODUCTOS */
 import Item from "../Item/Item";
-const ItemList = ({productList}) => {
+const ItemList = ({productsList}) => {
     return (
-        <div>
-            {productList.map(product => <Item key={product.id} producto={product}/>)}
-        </div>
+        <>
+            {productsList.map(producto => <Item key={producto.id} prod={producto}/>)}
+        </>
     );
 }
 

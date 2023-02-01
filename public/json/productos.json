@@ -3,7 +3,8 @@
         "id": 1,
         "idCategoria": 1,
         "nombre":"Remera",
-        "color": "negra",
+        "marca": "Levis",
+        "precio" :2500,
         "stock": 15,
         "img": "remera1.jpg"
     },
@@ -11,64 +12,72 @@
         "id": 2,
         "idCategoria": 1,
         "nombre":"Remeron",
-        "color": "negra",
+        "marca": "Rusty",
+        "precio" :3200,
         "stock": 10,
-        "img": "remera1.jpg"
+        "img": "remera2.jpg"
     },
     {
         "id": 3,
         "idCategoria": 1,
         "nombre":"Musculosa",
-        "color": "negra",
+        "marca": "Wanama",
+        "precio" :6400,
         "stock": 22,
-        "img": "remera1.jpg"
+        "img": "remera3.jpg"
     },
     {
         "id": 4,
         "idCategoria": 2,
         "nombre":"Short",
-        "color": "claro",
+        "marca": "Levis",
+        "precio" :7200,
         "stock": 12,
-        "img": "remera1.jpg"
+        "img": "short1.jpg"
     },
     {
         "id": 5,
         "idCategoria": 2,
         "nombre":"Short",
-        "color": "celeste",
+        "marca": "Rusty",
+        "precio" :6800,
         "stock": 12,
-        "img": "remera1.jpg"
+        "img": "short2.jpg"
     },
     {
         "id": 6,
         "idCategoria": 2,
         "nombre":"Short",
-        "color": "celeste",
+        "marca": "Wanama",
+        "precio" :9500,
         "stock": 8,
-        "img": "remera1.jpg"
+        "img": "short3.jpg"
     },
     {
         "id": 7,
         "idCategoria": 3,
         "nombre":"Jean",
-        "color": "azul",
+        "marca": "Rusty",
+        "precio" :9350,
         "stock": 3,
-        "img": "remera1.jpg"
+        "img": "jean1.jpg"
     },
     {
         "id": 8,
         "idCategoria": 3,
         "nombre":"Jean",
-        "color": "celeste",
+        "marca": "Levis",
+        "precio" :8500,
         "stock": 6,
-        "img": "remera1.jpg"
+        "img": "jean2.jpg"
     },
     {
         "id": 9,
         "idCategoria": 3,
         "nombre":"Jean",
-        "color": "claro",
+        "marca": "Wanama",
+        "precio" :15000,
         "stock": 5,
-        "img": "remera1.jpg"
+        "img": "jean3.jpg"
     }
 ]
