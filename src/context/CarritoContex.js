@@ -26,14 +26,17 @@ export const CarritoProvider = (props) => {
             setCarrito([...carrito,nuevoProducto])
         }
     }
+
 /* VACIA TODO EL CARRITO */
     const emptyCart = () =>{
         setCarrito([])
     }
+
 /* RECIBE UN ID COMO PARAMETO Y SACA UN OBJETO */
     const removeItem = (id) =>{
         setCarrito(carrito.filter(prod => prod.id !== id))
     }
+    
     const getItemQuantity = () =>{
         return carrito.reduce((acum,prod) => acum += prod.cant, 0)
     }

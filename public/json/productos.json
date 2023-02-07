@@ -6,7 +6,7 @@
         "marca": "Levis",
         "precio" :2500,
         "stock": 15,
-        "img": "remera1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/remera1.jpg?alt=media&token=e5e3e00b-c605-48ca-8821-149ea4a7c10f"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "marca": "Rusty",
         "precio" :3200,
         "stock": 10,
-        "img": "remera2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/remera2.jpg?alt=media&token=38917e71-8665-4d28-a936-fb0136eebede"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "marca": "Wanama",
         "precio" :6400,
         "stock": 22,
-        "img": "remera3.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/remera3.jpg?alt=media&token=d9d782ce-af41-43ad-90d5-c21b5e64789b"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "marca": "Levis",
         "precio" :7200,
         "stock": 12,
-        "img": "short1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/short1.jpg?alt=media&token=9119f2ab-5d75-4519-ac0e-6edd201d39db"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "marca": "Rusty",
         "precio" :6800,
         "stock": 12,
-        "img": "short2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/short2.jpg?alt=media&token=1c8d1ac7-a401-4bca-95f6-51de0b68ac65"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "marca": "Wanama",
         "precio" :9500,
         "stock": 8,
-        "img": "short3.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/short3.jpg?alt=media&token=970feb62-5cfa-479a-bb8c-72950b0d0c47"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "marca": "Rusty",
         "precio" :9350,
         "stock": 3,
-        "img": "jean1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/jean1.jpg?alt=media&token=30a73903-61c7-4a41-b4d6-681afd9edad8"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "marca": "Levis",
         "precio" :8500,
         "stock": 6,
-        "img": "jean2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/jean2.jpg?alt=media&token=505bd7a1-f1ba-4597-8f14-59360b751126"
     },
     {
         "id": 9,
@@ -78,6 +78,6 @@
         "marca": "Wanama",
         "precio" :15000,
         "stock": 5,
-        "img": "jean3.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-99de3.appspot.com/o/jean3.jpg?alt=media&token=63087704-d4ab-4857-b56d-7feb21b67087"
     }
 ]

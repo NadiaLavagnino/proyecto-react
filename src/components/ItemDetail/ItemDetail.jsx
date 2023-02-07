@@ -2,6 +2,7 @@ import ItemCount from "../ItemCount/ItemCount";
 import { Link } from "react-router-dom";
 import { useDarkModeContext } from "../../context/DarkModeContext";
 import { useCarritoContext } from "../../context/CarritoContex";
+
 const ItemDetail = ({item}) => {
     const {darkMode} =useDarkModeContext()
     const {addItem} = useCarritoContext()
@@ -12,8 +13,8 @@ const ItemDetail = ({item}) => {
 
     return (
         <div className="row g-0">
-            <div className="col-md-4">
-                <img src="{`../img/${item.img}`}" alt="" className="img-fluid rounded-start"/>
+            <div className="col-md-4 imgBody">
+            <img src={item.img} alt="" className="img-fluid rounded-start"/>
             </div>
             <div className="col-ms-8">
                 <div className="card-body">

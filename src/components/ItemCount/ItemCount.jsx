@@ -1,6 +1,8 @@
 import {useState} from 'react';
-
+import { useDarkModeContext } from '../../context/DarkModeContext';
 const ItemCount = ({inicial, stock, onAdd}) => {
+    const {darkMode} = useDarkModeContext()
+    
     const [contador, setContador] = useState(inicial);
     /*
     const boton = document.getElementById("boton1")

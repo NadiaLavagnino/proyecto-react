@@ -5,19 +5,20 @@
 }
 
 .carBody{
-    background-color: white;
+    background-color: rgb(240, 155, 155);
     border-radius: 3px;
     margin-bottom: 4px;
     text-align: center;
 }
 .carBodyDark{
-    background-color: rgb(247, 207, 207);
+    background-color: rgb(245, 157, 157);
     margin-bottom: 3px;
     text-align: center;
 }
 img{
     margin-top: 10px;
 }
+
 
 .cardProductos{
     margin: 5px;
@@ -55,3 +56,24 @@ img{
     margin-top: 20px;
 }
 
+.imgBody {
+    display:block;
+    margin:auto;
+    max-height: 100%;
+}
+
+.cartContainer {
+    margin-top:3%;
+    margin-left: 26.5%;
+}
+
+.divButtons button{
+    margin:4px;
+}
+
+@media (max-width:991px) {
+    .cartWidget {
+        color:white;
+        margin-bottom: 10px;
+    }
+}
