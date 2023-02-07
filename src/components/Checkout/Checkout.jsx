@@ -13,7 +13,6 @@ const Checkout = () => {
         e.preventDefault()
         const datForm = new FormData(datosFormulario.current)
         const cliente = Object.fromEntries(datForm)
-
         const aux = [...carrito]
 
         aux.forEach(prodCarrito => {

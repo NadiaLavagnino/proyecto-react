@@ -11,7 +11,7 @@ const ItemDetailContainer = () => {
     useEffect(() => {
         getProducto(id).then(prod => setProducto(prod))
         
-    },[]);
+    }, []);
 
     return (
         <div className={`card mb-3 container itemDetail ${darkMode ? 'text-white bg-secondary' : 'border-light'}`}>
