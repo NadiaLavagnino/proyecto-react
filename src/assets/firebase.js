@@ -26,9 +26,10 @@ const cargarBDD = async () => {
     const promise = await fetch('./json/productos.json')
     const productos = await promise.json()
     productos.forEach(async (prod) => {
-        await addDoc(collection(db,"productos"), {
+        await addDoc(collection(db,"productos"), { 
             nombre: prod.nombre,
             marca: prod.marca,
+            modelo: prod.modelo,
             idCategoria: prod.idCategoria,
             stock: prod.stock,
             precio: prod.precio,

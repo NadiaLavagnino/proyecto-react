@@ -13,6 +13,7 @@ const Checkout = () => {
         e.preventDefault()
         const datForm = new FormData(datosFormulario.current)
         const cliente = Object.fromEntries(datForm)
+
         const aux = [...carrito]
 
         aux.forEach(prodCarrito => {
@@ -42,6 +43,7 @@ const Checkout = () => {
         })
         
     }
+
     return (
         <div className="container" style={{marginTop: "20px"}}>
             <form onSubmit={consultarFormulario} ref={datosFormulario}>
